@@ -9,9 +9,9 @@ where last_name = 'Wahlberg'
 --Question 2
 select count (*)
 from payment
-where amount > 3.99 and amount < 5.99
+where amount between 3.99 and 5.99
 
---Answer = 3431
+--Answer = 5607
 --------------------------
 --Question 3
 select film_id, count (*)
